@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a CSS</title>
+
+    <link rel="stylesheet" href="./assets/style/style.css">
+</head>
+<body>
+
+
+    <!--
+    Tenemos tres formas distintas de agregar estios a un documento html.
+
+    Inline (en linea)
+
+    Para trabajar con los estilos in line utilizamos la palabra reservada style y con esto ya le damos la instrucción de lo que queremos añadir.
+    Tiene mayor jerarquia sobre la etiqueta style.
+
+    -->
+
+        <h1>inline</h1>
+            <p style="color: blueviolet;background-color: aquamarine;font-size: xx-large;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur a aspernatur deleniti, aliquid ex, culpa sit in sequi repellendus autem fugit quidem? Quidem sunt optio odio exercitationem labore fuga atque!</p>
+                <!--Utilizando la etiqueta <style> 
+
+                Cuando usamos los estilos dentro de la etiqueta style, "separamos" los estilos de etiqueta,para mantener un código limpio y claro
+
+ -->
+    <style>
+ body {
+    background-color: rgb(138, 165, 42);
+ }
+    </style>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, adipisci quasi! Cum provident possimus perferendis exercitationem rerum ullam assumenda, eaque voluptates! Iste reprehenderit fuga delectus vel at placeat earum a!</p>
+
+<!--Referencia a in documento de estilos extern
+(buena práctica)
+
+    código más limpio
+    código más entendible
+    velocidad de lectura en nuestra página
+    escalabilidad
+
+    Utilizar estilos de un documento externo significa que vamos a tener dos documentos; uno para html index.html con la estructura y por otro lado tenemos el documento llamado style.css para darle estilo
+
+
+
+
+-->
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore rerum corporis neque autem aperiam dolor nostrum necessitatibus excepturi animi sint eius blanditiis eligendi, non eos asperiores incidunt vel nobis quos.</p>
+<br>
+<br>
+<hr>
+
+    <h3>Recetas experimentales</h3>
+            <br>
+            <p style="background-color: green;font-size: 22px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero dignissimos suscipit assumenda quidem, dicta voluptas vitae molestias dolore rerum soluta, quos temporibus porro nihil eveniet error quia eligendi, deserunt dolor.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam est ducimus optio aspernatur saepe ipsa quidem.</p>
+            <br>
+            <p class="párrafo-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sit eveniet magni.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi sit eveniet magni.</p>
+
+        <ol><b>Lista de super</b>
+    <br>
+    <br>
+    <div class="caja"><li>Fruta</li>
+        <ul>
+            <li>Manzana</li>
+            <li>Fresa</li>
+            <li>Aguacate</li>
+        </ul>
+    </div>
+    <li class="encabezado">Carnes</li>
+        <ul>
+            <li>Bisteck</li>
+            <li>Pollo</li>
+            <li>Arrachera</li>
+        </ul>
+    <li class="encabezado titulos2">Lacteos</li>
+        <ul>
+            <li>Leche</li>
+            <li>Yogurth</li>
+            <li>Queso</li>
+        </ul>
+    <li class="encabezado" id="especial">Limpieza</li>
+        <ul>
+            <li>Cloro</li>
+            <li>Lavatrastes</li>
+            <li>Servitoallas</li>
+        </ul>
+</ol>
+    <!--clases y ID
+    todos pertenecemos a la clase CH35
+    nuestro ID sería nuestro nombre
+
+    la palabra reservada class (.)
+    la palabra reservada id (#)
+    -->
+
+    <div class="primer-div">
+        <h2 class="CH35" id="Rey">Rey David</h2>
+        <h2 class="CH35" id="Díaz">Marco Antonio Díaz</h2>
+    </div>
+    
+        <h2 class="Instructores" id="Fernanda">Fernanda</h2>
+        <h2 class="CH35" id="Uriel">Uriel</h2>
+    
+
+    <!-- 
+El modelo de caja nos permite establecer el diseño de nuestro sitio web, ya que hace que nuestros elemenros se presenten en formas rectangulares y de esta forma podemos modificar el aspecto, tamaño, diseño, etc.
+     -->
+</body>
+</html>

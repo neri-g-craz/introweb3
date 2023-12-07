@@ -1,0 +1,50 @@
+p{
+    background-color: blue;
+}
+.Instructores{
+    color: yellow;
+}
+#Díaz{
+    color: blueviolet;
+}
+#Fernanda{
+    color: aquamarine;
+}
+
+.CH35{
+    color: brown;
+}
+
+/* Para comentar en el archivo CSS se utliza /* "texto" */
+/* También es útil CTRL + K + C */
+
+.caja{
+    background-color: green;
+}
+.titulos2{
+    background-color: chocolate;
+}
+.encabezado{
+    background-color: palegreen;
+}
+#especial{
+    background-color: blanchedalmond;
+}
+div{
+    width:auto;
+    height:200;
+    margin: 20px 50px;
+    padding: 30px;
+    border: solid sienna;
+
+}
+.primer-div{
+    width:200;
+    height:200;
+    margin: 40px 0px;
+    padding: 55px;
+    border: solid white;
+}
+
+/* El anterior comentario fue cambiado con el comando CTRL + K + C */
+
